@@ -1,0 +1,158 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+/*body{
+	background:#232323;
+	width:100%;
+	height:100%;
+
+}*/
+
+.img-style{
+	margin:5px;
+	border:2px solid #303030;
+	box-shadow: 10px 10px 4px rgba(0,0,0,.5);
+	transition: 2s;
+}
+
+.img-style:hover{
+	box-shadow: 10px 10px 4px yellow;
+	transition: 2s;
+	box-sizing: 2555px;
+}
+
+
+
+#porfolio{
+	color:white;
+	text-align: center;
+	margin-top:25%;
+	margin-bottom:400px;
+	font-size:60px;
+	align-items: center;
+	
+}
+.navbar{
+	background-color:#232323 ! important;
+}
+.nav-item:hover, active{
+	color:orange !important;
+}
+.uni{
+	margin-top:55px;
+	width:340px;
+}
+.hm{
+	font-size: 15px;
+	color:rgba(136,136,136,1);
+	text-decoration: underline;
+}
+.hm:hover{
+	color:orange;
+	font-size:20px;
+	transition: .5s;
+}
+.te{
+	color:white;
+	text-transform: uppercase;
+
+}
+#hehe{
+	font-size: 20px;
+	color:#808080;
+	animation:teko 3s steps(20);
+	overflow: hidden;
+	white-space: nowrap;
+	border-right:2px solid white;
+	text-align: center;
+	position: center;
+	margin-left:0%;
+	 
+
+}
+.fa-angle-down{
+	padding:10px;
+	color:white;
+	font-size:15px;
+}
+.fa-angle-down:hover{
+	background:#707070;
+	border-radius: 25px;
+
+}
+
+
+/* img grrid */
+.rowss{
+	display: -ms-flexbox;
+	display:flex;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
+	padding: 0 4px;
+}
+
+nav a::after{
+
+	
+}
+
+.img-hove{
+	-ms-flex: 25%; /* IE 10 */
+  	flex: 25%;
+  	padding: 0 5px;
+
+}
+.img-hove img{
+	margin:50px;
+	box-shadow: 10px 10px 4px black;
+	display: flex;
+	max-width:scale(1.5);
+	overflow:hidden;
+	transition:all .7s;
+	
+}
+.img-hove img:hover{
+	transform: perspective(1000px) translate3d(0, 0, 100px);
+	position:relative;
+	perspective-origin: center;	
+	box-shadow: 10px 10px 10px black;
+}
+.img-item{
+	width:100%;
+}
+
+
+@keyframes teko{
+	0%{
+		width:0ch;
+		margin-left:43.87%;
+		
+	}
+	100%{
+		width:20ch;
+		margin-left:43.87%;		
+	}
+	
+}
+@media (max-width:600px){
+	 img{
+		max-width:100%;
+	}
+	#por{
+		font-size: 50px;
+	}
+	.img-item{
+		max-width:100%;
+		flex: 0 0 100%;
+		-ms-flex:0 0 100%;
+	}
+
+
+}
+
+
+

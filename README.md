@@ -1,2 +1,0 @@
-# portfolio
-A portfolio site is an extension of a freelancer’s (or company’s) résumé. It provides a convenient way for potential clients to view your work while also allowing you to expand on your skills and services. This, however, isn’t the ultimate purpose of a portfolio website. The ultimate purpose of a portfolio website is to provide a way for you to land more clients, whether that means freelance work, more clients for your agency or employment at a company.
